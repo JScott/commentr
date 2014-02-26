@@ -6,13 +6,10 @@ This is a team communication tool, not a social media tool. It's developed for a
 
 # Usage
 
-Load up the server with (node)[http://nodejs.org/]. Add the code from `bookmarklet.js` as a bookmarklet in your browser and run it.
+Load up the server with [node](http://nodejs.org/). Add the code from `bookmarklet.js` as a bookmarklet in your browser and run it.
 
-If you're not running it on your localhost, change `baseUrl`. Otherwise you're good to go!
-
-## Gotcha!
-
-It doesn't work for HTTPS right unless node is hosted on an HTTPS server. I haven't bothered to do that so I just threw up an alert for that case.
+* It doesn't work for HTTPS right now and will throw an alert unless node is hosted on an HTTPS server
+* You may need to alter `baseUrl` to reflect where you're hosting the server
 
 # Development
 
