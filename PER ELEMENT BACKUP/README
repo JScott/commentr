@@ -1,0 +1,14 @@
+Working with Harry McIntosh to create a way to make sticky notes on any TELUS page. This will provide a better way for teams to communicate on prototypes and production pages. The obvious benefit is in QA but you also see need for any UX/UI devs and other team collaboration.
+
+currently testing with http://api.jquery.com/category/effects/fading/
+and compiling with http://jsfiddle.net/QMeuV/1/embedded/result/
+
+later on I can package it more like Alex's RPP->eTime bookmarklet:
+https://community.collaborate.tsl.telus.com/sites/RPPC/Lists/Community%20Developed%20Tools/Attachments/5/rpp_etime_bookmarklet.html
+
+Prioritized idea backlog:
+* Move all this junk to Trello
+* change structure to first look for host then path (easily get all "www.google.com" references, then find all "/search" references from there) so we can enable...
+* a way to list all the pages on a host that have comments
+* a browser plugin (firefox/chrome) to tell if there are comments posted on the page
+* add the bookmarklet functionality to that plugin to simplify the user flow
